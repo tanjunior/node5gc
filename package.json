@@ -1,13 +1,15 @@
 {
-  "name": "project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "node5gc",
+  "version": "0.0.0",
+  "description": "Experimental Project for HTML5 node.js multiplayer game hosted on google cloud.",
+  "main": "app.js", 
+  "main"         : "app.js",
+  "dependencies" : {
+    "express"    : "~4.7.2",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tanjunior/node5gc.git"
   },
   "author": "",
-  "license": "ISC"
 }
